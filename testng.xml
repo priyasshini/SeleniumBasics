@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+
+  <test name="Test1">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testname" value="Login on Chrome"/>
+    <classes>
+      <class name="com.test.java.SeleniumFirstProgram"/>
+      
+    </classes>
+  </test> 
+  <test name="Test2">
+   <parameter name="browser" value="firefox"/>
+   <parameter name="testname" value="Login on Firefox"/>
+    <classes>
+      <class name="com.test.java.SeleniumFirstProgram"/>
+      
+    </classes>
+  </test>
+  </suite> 
